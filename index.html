@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<title></title>
+		<style>
+body { font-size: 14px; color: #373737; background: #f8f8f8; }
+* { margin: 0; padding: 0; }
+em { font-style: normal; }
+ul { list-style: none outside none; }
+.clearfix:after { display: block; height: 0; content: ""; clear: both; }
+.clearfix { *zoom: 1; }
+
+.order_wrapper p { line-height: 24px; padding: 0; }
+.order_wrapper .custom_info { padding: 8px 20px; }
+.order_wrapper .data_supply { padding: 8px 20px; line-height: 24px; margin-top: 10px; background: #fff; -webkit-box-shadow: 0 0 8px 0 #eaeaea; box-shadow: 0 0 8px 0 #eaeaea; }
+.order_wrapper .data_supply .light { color: orange; }
+.order_wrapper .consigner_info { margin-top: 10px; background: #fff; -webkit-box-shadow: 0 0 8px 0 #eaeaea; box-shadow: 0 0 8px 0 #eaeaea; }
+.order_wrapper .consigner_info .consigner_item { padding: 8px 20px; line-height: 24px; border-bottom: 1px solid #e8e8e8; }
+.order_wrapper .consigner_info .consigner_item:last-child { border-bottom: none; }
+.order_wrapper .consigner_info .consigner_item p { float: left; }
+.order_wrapper .consigner_info .consigner_item span { float: right; color: #666; }
+.order_wrapper .log_node { padding: 8px 20px; line-height: 24px; margin-top: 10px; background: #fff; -webkit-box-shadow: 0 0 8px 0 #eaeaea; box-shadow: 0 0 8px 0 #eaeaea; }
+.node_ul { margin-left: 50px; border-left: 1px solid #e8e8e8; }
+.node_ul li { position: relative; padding: 0 16px 16px; }
+.node_ul li .status { font-size: 16px; }
+.node_ul li .address { color: #888; font-size: 12px; line-height: 18px; }
+.node_ul li .date_time { position: absolute; top: 0; left: -50px; width: 40px; }
+.node_ul li .date_time span { display: block; text-align: right; font-size: 14px; }
+.node_ul li .date_time em { display: block; text-align: right; font-size: 10px; line-height: 1; }
+.node_ul li .dot { position: absolute; top: 0; left: -11px; width: 12px; height: 12px; border-radius: 50%; border: 5px solid #fff; background: #409eff; }
+
+
+</style>
+	</head>
+
+	<body>
+		<div class="order_wrapper">
+			<!-- 客户基础信息 -->
+			<div class="custom_info">
+				<p>客户单号：dfsf</p>
+				<p>物流运输号：dddd</p>
+				<p>件/重/体/箱：sdfsdfsdf</p>
+				<p>收货信息：</p>
+			</div>
+			<div class="data_supply">本数据由 <span class="light">XXX</span> 提供</div>
+			<div class="consigner_info">
+				<div class="consigner_item clearfix">
+					<p>发货人</p>
+					<span>我是发货人</span>
+				</div>
+				<div class="consigner_item clearfix">
+					<p>联系方式</p>
+					<span>155635563535</span>
+				</div>
+			</div>
+
+			<div class="log_node">
+				<ul class="node_ul">
+					<li>
+						<p class="status">已签收</p>
+						<p class="address">湖南省圣经上的飞机是的封建时代阀手动阀，文芬，123443322</p>
+						<p class="date_time">
+							<span>03-28</span>
+							<em>27:23</em>
+						</p>
+						<span class="dot"></span>
+					</li>
+					<li>
+							<p class="status">已下单</p>
+							<p class="address">湖南省圣经上的飞机是的封建时代阀手动阀，文芬，123443322</p>
+							<p class="date_time">
+								<span>03-28</span>
+								<em>27:23</em>
+							</p>
+							<span class="dot"></span>
+						</li>
+				</ul>
+			</div>
+			<div id="deliveryLine" class="paddingSide">
+
+			</div>
+		</div>
+	</body>
+</html>
